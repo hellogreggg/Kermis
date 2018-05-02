@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Kermis kermis = new Kermis();
-        
+        Scanner sc = new Scanner(System.in);
+        String keuze = sc.nextLine();
+        System.out.println(keuze);
+
     }
 }
 
@@ -18,9 +20,8 @@ class  Kermis {
 class Attractie  extends  Kermis{
 
     public void Keuzen() {
-        Scanner sc = new Scanner(System.in);
-        String keuze = sc.nextLine();
-        System.out.println(keuze);
+
+        if (keuze == 1)
     }
 }
 
