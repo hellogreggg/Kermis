@@ -5,25 +5,42 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Attractie attractie = new Attractie();
-        attractie.keuzen();
-        attractie.selected();
+            Kermis kermis = new Kermis();
 
     }
 }
 
 class  Kermis {
 
+    boolean enterKermis = true;
+
+
+
+    public Kermis(){
+        KERMIS:
+        while (enterKermis) {
+            System.out.println("Welkom bij de Kermis");
+            Attractie attractie = new Attractie();
+            attractie.keuzen();
+            attractie.selected();
+            break;
+        }
+    }
 
 }
 
 class Attractie  extends  Kermis{
 
+    private static double TotalIncome;
     int keuze;
 
-    void totalAttractieIncome(int RRIncome, int DMIncome, int BAIncome, int SPIncome, int SHIncome, int KMIncome ){
+    public Attractie(){
 
-        int sumAttracties = RRIncome + DMIncome + BAIncome + SPIncome + SHIncome + KMIncome;
+    }
+
+     public Attractie(double TotalIncome){
+        this.TotalIncome = TotalIncome;
+
     }
 
 
@@ -72,10 +89,12 @@ class Attractie  extends  Kermis{
 class Reuzenrad extends Attractie {
     private double prijs = 3.50;
     public void setPrijs(double prijs){
+
         this.prijs = prijs;
     }
 
     public double getPrijs(){
+
         return prijs;
     }
 
@@ -84,6 +103,7 @@ class Reuzenrad extends Attractie {
 class Draaimolen extends Attractie {
     private double prijs = 2.00;
     public void setPrijs(double prijs){
+
         this.prijs = prijs;
     }
 
@@ -96,13 +116,23 @@ class Draaimolen extends Attractie {
 
 class Botsautos extends Attractie {
     private double prijs = 1.50;
+    private double totalIncome;
+    public int tickets;
+
     public void setPrijs(double prijs){
+
         this.prijs = prijs;
     }
 
     public double getPrijs(){
+
         return prijs;
     }
+
+    public void setTotalIncome(double totalIncome){
+
+    }
+
 
 
 
@@ -111,6 +141,7 @@ class Botsautos extends Attractie {
 class Spiegelpaleis extends Attractie {
     private double prijs = 1.00;
     public void setPrijs(double prijs){
+
         this.prijs = prijs;
     }
 
