@@ -4,23 +4,45 @@ import java.util.Scanner;
 
 public class  Kermis {
 
-    boolean enterKermis = true;
-    String keuze;
+    public static float kermisOmzet;
+    public static int kermisAankopen;
 
 
 
-    public Kermis(){
+    public void start(){
 
-        while (enterKermis) {
+            boolean enterKermis = true;
+            int keuze;
+
             System.out.println("Welkom bij de Kermis");
             Scanner sc = new Scanner(System.in);
-            String keuze;
-            System.out.println("Wat wilt u doen, de keuzen zijn: ");
-            System.out.println("1 = Voedsel Kraamjes, 2 = Atrracties, o = Omzet, K = Kaartjes" );
-            keuze = sc.next();
-            this.keuze = keuze;
-            System.out.println(keuze);
-        }
-    }
 
+            while(enterKermis){
+                System.out.println("Wat wilt u doen, de keuzen zijn: ");
+                System.out.println("1 = Voedsel Kraamjes, 2 = Atrracties, 3 = Omzet, 4 = Kaartjes, 5 = Weggaan");
+                keuze = sc.nextInt();
+                if (keuze == 1){
+                    Voedselkraampjes voedselkraampjes = new Voedselkraampjes();
+                    voedselkraampjes.keuzen();
+                }
+                else if (keuze == 2){
+                    Attractie attractie = new Attractie();
+                    attractie.keuzen();
+                } else if (keuze == 3){
+                    kermisOmzet = (float)(Voedselkraampjes.totalIncome + Attractie.totalIncome);
+                    System.out.println("Kermis totale omzet is " + kermisOmzet + " euro");
+                }else if (keuze == 4){
+                    kermisAankopen = Voedselkraampjes.totalSold +  Attractie.totalSold;
+                    System.out.println("Totale Kermis aankopen zijn : " + kermisAankopen + " Aankopen");
+                } else if (keuze == 5) {
+                    System.out.println("Tot Ziens");
+                    break;
+                } else {
+                    break;
+                }
+
+            }
+
+
+    }
 }

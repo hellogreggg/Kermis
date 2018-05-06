@@ -2,10 +2,25 @@ package com.company;
 
 public class oliebollenKraam extends Voedselkraampjes {
 
-    private double prijs = 4.00;
+    public static double prijs;
 
-    private int totalIncome;
-
+    private double totalIncome;
     private int totalSold;
+
+
+    public oliebollenKraam(double prijs){
+        this.prijs = prijs;
+        totalIncome += prijs;
+        ++totalSold;
+        Voedselkraampjes.totalIncome += prijs;
+        Voedselkraampjes.totalSold++;
+    }
+
+
+    public void run() {
+        System.out.println("Oliebollen: " + prijs + " Euro");
+        System.out.println(totalIncome);
+        System.out.println(totalSold);
+    }
 
 }

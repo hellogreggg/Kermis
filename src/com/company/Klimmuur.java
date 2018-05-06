@@ -1,14 +1,24 @@
 package com.company;
 
 public class Klimmuur extends  Attractie {
-   private double prijs = 4.00;
-   public void setPrijs(double prijs){
-       this.prijs = prijs;
-   }
+    public static double prijs;
 
-   public double getPrijs(){
-       return prijs;
-   }
+    private double totalIncome;
+    private int totalSold;
 
 
+    public Klimmuur(double prijs){
+        this.prijs = prijs;
+        totalIncome += prijs;
+        ++totalSold;
+        Voedselkraampjes.totalIncome += prijs;
+        Voedselkraampjes.totalSold++;
+    }
+
+
+    public void run() {
+        System.out.println("Klimmuur: " + prijs + " Euro");
+        System.out.println(totalIncome);
+        System.out.println(totalSold);
+    }
 }

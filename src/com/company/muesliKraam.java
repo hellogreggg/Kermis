@@ -2,10 +2,24 @@ package com.company;
 
 public class muesliKraam extends Voedselkraampjes {
 
-    private double prijs = 9.00;
+    public static double prijs;
 
-    private int totalIncome;
+    public double totalIncome;
+    public int totalSold;
 
-    private int totalSold;
 
+    public muesliKraam(double prijs){
+        this.prijs = prijs;
+        totalIncome += prijs;
+        ++totalSold;
+        Voedselkraampjes.totalIncome += prijs;
+        Voedselkraampjes.totalSold++;
+    }
+
+
+    public void run() {
+        System.out.println("Musli: " + prijs + " Euro");
+        System.out.println(totalIncome);
+        System.out.println(totalSold);
+    }
 }

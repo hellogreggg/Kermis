@@ -2,19 +2,25 @@ package com.company;
 
 public class Spiegelpaleis extends Attractie {
 
-    private double prijs = 1.00;
+    public static double prijs;
 
-    private int totalIncome;
-
+    private double totalIncome;
     private int totalSold;
 
-    public void setPrijs(double prijs){
 
+    public Spiegelpaleis(double prijs){
         this.prijs = prijs;
+        totalIncome += prijs;
+        ++totalSold;
+        Voedselkraampjes.totalIncome += prijs;
+        Voedselkraampjes.totalSold++;
     }
 
-    public double getPrijs(){
-        return prijs;
+
+    public void run() {
+        System.out.println("Spiegel Paleis: " + prijs + " Euro");
+        System.out.println(totalIncome);
+        System.out.println(totalSold);
     }
 
 

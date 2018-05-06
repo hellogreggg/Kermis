@@ -1,15 +1,25 @@
 package com.company;
 
 public class Draaimolen extends Attractie {
-    private double prijs = 2.00;
-    public void setPrijs(double prijs){
+    public static double prijs;
 
+    private double totalIncome;
+    private int totalSold;
+
+
+    public Draaimolen(double prijs){
         this.prijs = prijs;
+        totalIncome += prijs;
+        ++totalSold;
+        Voedselkraampjes.totalIncome += prijs;
+        Voedselkraampjes.totalSold++;
     }
 
-    public double getPrijs(){
-        return prijs;
-    }
 
+    public void run() {
+        System.out.println("Draaimolen: " + prijs + " Euro");
+        System.out.println(totalIncome);
+        System.out.println(totalSold);
+    }
 
 }

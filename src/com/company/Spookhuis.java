@@ -2,19 +2,24 @@ package com.company;
 
 public class Spookhuis extends  Attractie {
 
-    private double prijs = 3.00;
+    public static double prijs;
 
-    private int totalIncome;
-
+    private double totalIncome;
     private int totalSold;
 
-    public void setPrijs(double prijs){
+
+    public Spookhuis(double prijs){
         this.prijs = prijs;
+        totalIncome += prijs;
+        ++totalSold;
+        Voedselkraampjes.totalIncome += prijs;
+        Voedselkraampjes.totalSold++;
     }
 
-    public double getPrijs(){
-        return prijs;
+
+    public void run() {
+        System.out.println("Spookhuis: " + prijs + " Euro");
+        System.out.println(totalIncome);
+        System.out.println(totalSold);
     }
-
-
 }

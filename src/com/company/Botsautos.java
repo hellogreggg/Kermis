@@ -1,25 +1,26 @@
 package com.company;
 
 public class Botsautos extends Attractie {
-    private double prijs = 1.50;
+    public static double prijs;
+
     private double totalIncome;
-    public int tickets;
+    private int totalSold;
 
-    public void setPrijs(double prijs){
 
+    public Botsautos(double prijs){
         this.prijs = prijs;
-    }
-
-    public double getPrijs(){
-
-        return prijs;
-    }
-
-    public void setTotalIncome(double totalIncome){
-
+        totalIncome += prijs;
+        ++totalSold;
+        Voedselkraampjes.totalIncome += prijs;
+        Voedselkraampjes.totalSold++;
     }
 
 
-
-
+    public void run() {
+        System.out.println("Bots autos: " + prijs + " Euro");
+        System.out.println(totalIncome);
+        System.out.println(totalSold);
+    }
 }
+
+
