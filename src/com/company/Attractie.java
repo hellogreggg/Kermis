@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Attractie  extends  Kermis{
 
     private static double totalIncome;
-    private static int totalTickets;
+    private static int totalSold;
 
     int keuze;
 
@@ -16,6 +16,10 @@ public class Attractie  extends  Kermis{
      public Attractie(double TotalIncome){
         this.totalIncome = TotalIncome;
 
+    }
+
+    public void draaien(){
+        System.out.println("de Attractie Draait");
     }
 
 

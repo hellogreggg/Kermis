@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7f265bb-dbee-4c3c-bf90-f3366d27a013" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/muesliKraam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/shoarmaTent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kermis/com/company/Attractie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kermis/com/company/Attractie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kermis/com/company/Botsautos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kermis/com/company/Botsautos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kermis/com/company/Draaimolen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kermis/com/company/Draaimolen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kermis/com/company/Kermis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kermis/com/company/Kermis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kermis/com/company/Klimmuur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kermis/com/company/Klimmuur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kermis/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kermis/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kermis/com/company/Reuzenrad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kermis/com/company/Reuzenrad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kermis/com/company/Spiegelpaleis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kermis/com/company/Spiegelpaleis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kermis/com/company/Spookhuis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kermis/com/company/Spookhuis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kermis/com/company/Voedselkraampjes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kermis/com/company/Voedselkraampjes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Attractie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Attractie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Kermis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Kermis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Reuzenrad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Reuzenrad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Spiegelpaleis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Spiegelpaleis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Spookhuis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Spookhuis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Voedselkraampjes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Voedselkraampjes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/frietKraam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/frietKraam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/oliebollenKraam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/oliebollenKraam.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kermis.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Kermis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -45,53 +38,8 @@
       <file leaf-file-name="Voedselkraampjes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Voedselkraampjes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spookhuis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Spookhuis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spiegelpaleis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Spiegelpaleis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reuzenrad.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Reuzenrad.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="muesliKraam.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/muesliKraam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shoarmaTent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/shoarmaTent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -99,26 +47,12 @@
       <file leaf-file-name="Attractie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Attractie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="frietKraam.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/frietKraam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oliebollenKraam.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/oliebollenKraam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="476">
+              <caret line="31" column="27" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="27" />
+              <folding>
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,12 +72,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Attractie.java" />
         <option value="$PROJECT_DIR$/src/com/company/Botsautos.java" />
         <option value="$PROJECT_DIR$/src/com/company/Draaimolen.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Kermis.java" />
         <option value="$PROJECT_DIR$/src/com/company/Klimmuur.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/oliebollenKraam.java" />
         <option value="$PROJECT_DIR$/src/com/company/frietKraam.java" />
         <option value="$PROJECT_DIR$/src/com/company/shoarmaTent.java" />
@@ -152,6 +83,9 @@
         <option value="$PROJECT_DIR$/src/com/company/Spiegelpaleis.java" />
         <option value="$PROJECT_DIR$/src/com/company/Spookhuis.java" />
         <option value="$PROJECT_DIR$/src/com/company/Voedselkraampjes.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Attractie.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Kermis.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
@@ -257,6 +191,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32943678" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -267,7 +202,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10208333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10208333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -280,7 +215,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32943678" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -340,6 +274,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="50" />
+          <folding>
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -406,13 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Kermis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Klimmuur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -420,28 +351,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Voedselkraampjes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Spookhuis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Spiegelpaleis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -469,10 +379,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Attractie.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/oliebollenKraam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="50" />
+        <state relative-caret-position="136">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -483,10 +393,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/oliebollenKraam.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Spiegelpaleis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Attractie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Voedselkraampjes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Kermis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>

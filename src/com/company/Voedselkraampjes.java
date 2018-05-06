@@ -4,7 +4,7 @@ public class Voedselkraampjes extends Kermis {
 
     private double totalIncome;
 
-    private int totalConsumpties;
+    private int totalSold;
 
 
 }
