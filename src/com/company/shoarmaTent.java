@@ -4,14 +4,13 @@ public class shoarmaTent extends Voedselkraampjes {
 
     public static double prijs;
 
-    private double totalIncome;
-    private int totalSold;
+    private static double totalIncome;
+    private static int totalSold;
 
 
     public shoarmaTent(double prijs){
         this.prijs = prijs;
         totalIncome += prijs;
-        ++totalSold;
         Voedselkraampjes.totalIncome += prijs;
         Voedselkraampjes.totalSold++;
     }
@@ -19,7 +18,21 @@ public class shoarmaTent extends Voedselkraampjes {
 
     public void run() {
         System.out.println("Shoarma: " + prijs + " Euro");
-        System.out.println(totalIncome);
-        System.out.println(totalSold);
+        shoarmaTent.totalSold++;
+        kaarjtes();
+    }
+
+    public int getTotalSold(){
+        return totalSold;
+
+    }
+
+    public double getTotalIncome() {
+        return totalIncome;
+    }
+
+    public void kaarjtes(){
+        System.out.println(getTotalSold() + " Bots Auto kaatjes verkocht ");
+        System.out.println(getTotalIncome() + " aan de Bots Autos verdiend");
     }
 }
