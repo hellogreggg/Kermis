@@ -38,9 +38,13 @@ public class  Kermis {
                 } else if (keuze == 3){
                     kermisOmzet = (float)(Voedselkraampjes.totalIncome + Attractie.totalIncome);
                     System.out.println("Kermis totale omzet is " + getKermisOmzet() + " euro");
+//                    System.out.println("Attractie totale omzet is " + Attractie.totalIncome + " euro");
+//                    System.out.println("VoedselKraamjes totale omzet is " + Voedselkraampjes.totalIncome + " euro");
                 }else if (keuze == 4){
                     kermisAankopen = Voedselkraampjes.totalSold +  Attractie.totalSold;
-                    System.out.println("Totale Kermis aankopen zijn : " + getkermisAankopen() + " Aankopen");
+                    System.out.println("Totale Kermis aankopen zijn : " + getkermisAankopen() + " Verkocht");
+//                    System.out.println("Totale Attractie aankopen zijn : " + Attractie.totalSold +  " Verkocht");
+//                    System.out.println("Totale Voedselkraampjes aankopen zijn : " + Voedselkraampjes.totalSold + " Verkocht");
                 } else if (keuze == 5) {
                     System.out.println("Tot Ziens");
                     break;
