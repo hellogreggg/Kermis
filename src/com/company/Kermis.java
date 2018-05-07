@@ -4,8 +4,18 @@ import java.util.Scanner;
 
 public class  Kermis {
 
-    public static float kermisOmzet;
-    public static int kermisAankopen;
+    private static float kermisOmzet;
+    private static int kermisAankopen;
+
+    private float getKermisOmzet(){
+        return  kermisOmzet;
+    }
+
+    public int getkermisAankopen(){
+        return kermisAankopen;
+    }
+
+
 
 
 
@@ -30,10 +40,10 @@ public class  Kermis {
                     attractie.keuzen();
                 } else if (keuze == 3){
                     kermisOmzet = (float)(Voedselkraampjes.totalIncome + Attractie.totalIncome);
-                    System.out.println("Kermis totale omzet is " + kermisOmzet + " euro");
+                    System.out.println("Kermis totale omzet is " + getKermisOmzet() + " euro");
                 }else if (keuze == 4){
                     kermisAankopen = Voedselkraampjes.totalSold +  Attractie.totalSold;
-                    System.out.println("Totale Kermis aankopen zijn : " + kermisAankopen + " Aankopen");
+                    System.out.println("Totale Kermis aankopen zijn : " + getkermisAankopen() + " Aankopen");
                 } else if (keuze == 5) {
                     System.out.println("Tot Ziens");
                     break;
