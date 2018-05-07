@@ -1,6 +1,6 @@
 package com.company;
 
-public class Reuzenrad extends Attractie {
+public class Reuzenrad extends Attractie implements Draaien{
     public static double prijs;
 
     private double totalIncome;
@@ -18,7 +18,13 @@ public class Reuzenrad extends Attractie {
 
     public void run() {
         System.out.println("Reuzenrad: " + prijs + " Euro");
+        draaien();
         System.out.println(totalIncome);
         System.out.println(totalSold);
+    }
+
+    @Override
+    public void draaien() {
+        System.out.println("Draaien gaat van start");
     }
 }

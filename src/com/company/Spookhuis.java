@@ -1,6 +1,6 @@
 package com.company;
 
-public class Spookhuis extends  Attractie {
+public class Spookhuis extends  Attractie implements Draaien {
 
     public static double prijs;
 
@@ -19,7 +19,14 @@ public class Spookhuis extends  Attractie {
 
     public void run() {
         System.out.println("Spookhuis: " + prijs + " Euro");
+        draaien();
         System.out.println(totalIncome);
         System.out.println(totalSold);
+
+    }
+
+    @Override
+    public void draaien() {
+        System.out.println("Draaien gaat van start");
     }
 }

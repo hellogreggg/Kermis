@@ -7,10 +7,6 @@ public class Attractie  extends  Kermis{
     public static double totalIncome;
     public static int totalSold;
 
-     public void draaien(){
-        System.out.println("de Attractie Draait");
-    }
-
 
     public void keuzen() {
         Scanner sc = new Scanner(System.in);
@@ -48,4 +44,8 @@ public class Attractie  extends  Kermis{
             keuzen();
         }
     }
+}
+
+interface Draaien{
+    void draaien();
 }

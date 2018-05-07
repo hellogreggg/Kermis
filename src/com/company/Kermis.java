@@ -16,9 +16,6 @@ public class  Kermis {
     }
 
 
-
-
-
     public void start(){
 
             boolean enterKermis = true;

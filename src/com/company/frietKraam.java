@@ -17,7 +17,7 @@ public class frietKraam extends Voedselkraampjes{
     }
 
 
-    public void run() {
+    public void run  () {
         System.out.println("Friet: " + prijs + " Euro");
         System.out.println(totalIncome);
         System.out.println(totalSold);
